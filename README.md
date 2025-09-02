@@ -1,35 +1,34 @@
-# chicago-public-schools-sql-python
-A data analysis project using SQL and Python to explore Chicago Public School performance data. The dataset is stored in a SQLite database, and various SQL queries are executed to retrieve insights, solve real-world problems, and practice database functions. Perfect for learning SQL + Python integration.
-# 🏫 Working with a Real-World Dataset using SQL and Python
+# 🏫 Chicago Public Schools SQL + Python Project
 
-This project demonstrates how to work with a real-world dataset of **Chicago Public School Level Performance** using **Python** and **SQL**.  
-It walks you through **loading data**, **storing it in a SQLite database**, **querying metadata**, and **solving real-world problems** using built-in SQL functions.
+Hi, I'm **Hasnaat Abdullah** 👋  
 
----
-
-## 📌 Project Objectives
-
-By completing this project, you will:
-
-- Understand the **Chicago Public School Performance Dataset**.
-- Store the dataset into a **SQLite database** using Python.
-- Retrieve **metadata** about tables and columns.
-- Query data from **mixed-case columns**.
-- Use built-in **SQL functions** to analyze data.
-- Strengthen your **SQL + Python integration** skills.
+This is my project where I used **Python** and **SQL** to analyze the **Chicago Public Schools Performance Dataset**.  
+In this lab, I practiced how to load data into a **SQLite database**, run **SQL queries**, retrieve useful insights, and integrate SQL with Python for data analysis.
 
 ---
 
-## 🗂 Dataset
+## 📌 What I Learned
 
-The dataset contains information about the **performance ratings of Chicago Public Schools**, including details like:
+- How to **load a real-world dataset** into a **SQLite database**.
+- How to **write SQL queries** to analyze school performance data.
+- Retrieving **metadata** about tables and columns.
+- Working with **mixed-case columns** in SQL.
+- Using **built-in SQL functions** to solve real-world problems.
+- Integrating **Python** with SQL for better data analysis.
+
+---
+
+## 🗂 About the Dataset
+
+This dataset contains information about the performance ratings of **Chicago Public Schools**.  
+Some of the details included:
 
 - School Name  
-- Student Performance  
 - Location  
 - School Type  
-- Performance Category  
-- Ratings & Scores
+- Student Performance  
+- Ratings & Scores  
+- Performance Categories  
 
 - **Dataset Name:** Chicago Public School Level Performance  
 - **Format:** CSV / Excel  
@@ -37,16 +36,16 @@ The dataset contains information about the **performance ratings of Chicago Publ
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Tools & Libraries I Used
 
 - **Python** → Pandas, SQLite3, SQLAlchemy  
-- **SQLite** → Relational Database  
-- **Jupyter Notebook** → For interactive analysis  
-- **SQL** → For querying and analyzing the dataset
+- **SQLite** → For storing and querying the dataset  
+- **Jupyter Notebook** → For running my analysis  
+- **SQL** → To write and execute database queries
 
 ---
 
-## 📂 Project Structure
+## 📂 My Project Structure
 
 ```bash
 chicago-public-schools-sql-python/
@@ -55,11 +54,11 @@ chicago-public-schools-sql-python/
 │   └── Chicago_Public_Schools.csv        # Dataset file
 │
 ├── notebooks/
-│   └── chicago_schools_analysis.ipynb    # Jupyter notebook with SQL + Python code
+│   └── chicago_schools_analysis.ipynb    # My Jupyter Notebook with SQL + Python code
 │
 ├── scripts/
 │   └── create_database.py                # Script to load data into SQLite
 │   └── query_examples.py                 # Example SQL queries
 │
-├── README.md                            # Project documentation
-└── requirements.txt                     # Python dependencies
+├── README.md                            # This file
+└── requirements.txt                     # Libraries I used
